@@ -3,6 +3,11 @@ body {
   font-family: Greycliff, sans-serif;
 }
 
+/* Define the Background Color */
+body {
+  background-color: lightyellow;
+}
+
 h1, h2 {
   color: #333;
 }
