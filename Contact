@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>For any inquiries or to get in touch, please fill out the form below:</p>
+
+  <form action="process-form.php" method="POST">
+    <!-- Your form fields here -->
+  </form>
+
+  <h2>Contact Details</h2>
+  <p>Email: jafari.mahdi.de@gmail.com</p>
+  <p>Phone: +49(0)1749354149</p>
+
+  <!-- Additional content, such as a map or directions, if desired -->
+
+</body>
+</html>
