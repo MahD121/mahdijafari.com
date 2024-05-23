@@ -1,28 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
   const galleryData = {
-    'schematic-design': {
-      title: 'Schematic Design',
+    'facade-design': {
+      title: 'Facade Design',
       images: [
-        { src: 'https://via.placeholder.com/600x400', alt: 'Schematic Design 1', description: 'Schematic Design 1 - Date: 2023 - Location: Kabul' },
-        { src: 'https://via.placeholder.com/600x400', alt: 'Schematic Design 2', description: 'Schematic Design 2 - Date: 2022 - Location: Stuttgart' },
+        { src: 'Images/IMG_0400.JPG', alt: 'Malik Zadah Restaurant 01', description: 'Malik Zadah Restaurant 01 - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0404.JPG', alt: 'Malik Zadah Restaurant 02', description: 'Malik Zadah Restaurant 02 - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0407.JPG', alt: 'Alkozay Group of Companies', description: 'Alkozay Group of Companies - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0418.JPG', alt: 'Sal-Sal Furniture Showroom', description: 'Sal-Sal Furniture Showroom - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0436.JPG', alt: 'Sal-Sal Furniture Showroom', description: 'Sal-Sal Furniture Showroom - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0420.JPG', alt: '7012 Complex', description: '7012 Complex - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0420.JPG', alt: '7012 Complex', description: '7012 Complex - Date: 2015 - Location: Kabul' },
+        
       ],
     },
-    'construction-documents': {
-      title: 'Construction Documents',
+    'building-construction': {
+      title: 'Building Construction',
       images: [
         { src: 'https://via.placeholder.com/600x400', alt: 'Construction Documents 1', description: 'Construction Documents 1 - Date: 2023 - Location: Kabul' },
         { src: 'https://via.placeholder.com/600x400', alt: 'Construction Documents 2', description: 'Construction Documents 2 - Date: 2022 - Location: Stuttgart' },
       ],
     },
-    'construction': {
-      title: 'Construction',
+    'interior-design': {
+      title: 'Interior Design',
       images: [
         { src: 'https://via.placeholder.com/600x400', alt: 'Construction 1', description: 'Construction 1 - Date: 2023 - Location: Kabul' },
         { src: 'https://via.placeholder.com/600x400', alt: 'Construction 2', description: 'Construction 2 - Date: 2022 - Location: Stuttgart' },
       ],
     },
-    'build-construction': {
-      title: 'Build Construction',
+    'computational-design': {
+      title: 'Computational Design',
       images: [
         { src: 'https://via.placeholder.com/600x400', alt: 'Build Construction 1', description: 'Build Construction 1 - Date: 2023 - Location: Kabul' },
         { src: 'https://via.placeholder.com/600x400', alt: 'Build Construction 2', description: 'Build Construction 2 - Date: 2022 - Location: Stuttgart' },
