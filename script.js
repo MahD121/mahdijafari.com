@@ -26,8 +26,25 @@ document.addEventListener('DOMContentLoaded', () => {
     'interior-design': {
       title: 'Interior Design',
       images: [
-        { src: 'https://via.placeholder.com/600x400', alt: 'Construction 1', description: 'Construction 1 - Date: 2023 - Location: Kabul' },
-        { src: 'https://via.placeholder.com/600x400', alt: 'Construction 2', description: 'Construction 2 - Date: 2022 - Location: Stuttgart' },
+        { src: 'Images/IMG_0406.JPG', alt: 'Island Kitchen', description: 'Island Kitchen 1 - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0409.JPG', alt: 'University Jumhoriat', description: 'Reception - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0422.JPG', alt: 'University Jumhoriat', description: 'Reception - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0410.JPG', alt: 'Abu-Ali Sina Clinic ', description: 'Reception - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0412.JPG', alt: 'Novin Sima Company', description: 'Meeting Room - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0413.JPG', alt: 'Khalid Lemar Apartment', description: 'Apartment - Date: 2014 - Location: Kabul' },
+        { src: 'Images/IMG_0416.JPG', alt: 'Ministry of Economy', description: ' Office, Meetingroom, Saferoom - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0430.JPG', alt: 'Ministry of Economy', description: ' Office, Meetingroom, Saferoom - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0423.JPG', alt: 'Qalay-e Fathullah Project', description: ' MasterBedroom - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0441.JPG', alt: 'University Jumhoriat', description: ' Office - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0445.JPG', alt: 'Guest House', description: ' Guestroom - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0451.JPG', alt: 'Reception', description: ' Reception - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_1839.JPG', alt: 'Moraa Educational Center', description: ' Reception - Date: 2018 - Location: Kabul' },
+        
+        
+        
+        
+        
+        { src: 'Images/IMG_0452.JPG', alt: 'Jumhoriat University', description: 'Reception - Date: 2015 - Location: Kabul' },
       ],
     },
     'computational-design': {
