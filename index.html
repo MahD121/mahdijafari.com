@@ -6,6 +6,7 @@
   <title>Mahdi Jafari - Architectural Designer</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
@@ -40,34 +41,42 @@
       <h2 class="section-title">PORTFOLIO</h2>
       <h3 class="section-subtitle">RECENT PROJECTS</h3>
       <div class="project-grid">
-        <div class="project">
+        <div class="project" onclick="openGallery('schematic-design')">
           <img src="https://i.ibb.co/60J1dnR/Parametric-Interior-01.jpg" alt="Schematic Design">
           <div class="overlay">
             <h3>Schematic Design</h3>
             <span class="arrow">&rarr;</span>
           </div>
         </div>
-        <div class="project">
+        <div class="project" onclick="openGallery('construction-documents')">
           <img src="https://i.ibb.co/B41TGmn/Building-Design.jpg" alt="Construction Documents">
           <div class="overlay">
             <h3>Construction Documents</h3>
             <span class="arrow">&rarr;</span>
           </div>
         </div>
-        <div class="project">
+        <div class="project" onclick="openGallery('construction')">
           <img src="https://i.ibb.co/9nmYvC8/Screenshot-2023-05-09-222347.png" alt="Construction">
           <div class="overlay">
             <h3>Construction</h3>
             <span class="arrow">&rarr;</span>
           </div>
         </div>
-        <div class="project">
+        <div class="project" onclick="openGallery('build-construction')">
           <img src="https://i.ibb.co/xmHjNMH/Product-Design.jpg" alt="Build Construction">
           <div class="overlay">
             <h3>Build Construction</h3>
             <span class="arrow">&rarr;</span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="container gallery-container hidden">
+      <button class="close-gallery" onclick="closeGallery()">×</button>
+      <h2 id="gallery-title"></h2>
+      <div id="gallery-content" class="gallery-content">
+        <!-- Gallery images and descriptions will be dynamically inserted here -->
       </div>
     </section>
 
