@@ -39,11 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { src: 'Images/IMG_0445.JPG', alt: 'Guest House', description: ' Guestroom - Date: 2015 - Location: Kabul' },
         { src: 'Images/IMG_0451.JPG', alt: 'Reception', description: ' Reception - Date: 2015 - Location: Kabul' },
         { src: 'Images/IMG_1839.JPG', alt: 'Moraa Educational Center', description: ' Reception - Date: 2018 - Location: Kabul' },
-        
-        
-        
-        
-        
         { src: 'Images/IMG_0452.JPG', alt: 'Jumhoriat University', description: 'Reception - Date: 2015 - Location: Kabul' },
       ],
     },
