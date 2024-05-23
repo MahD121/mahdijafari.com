@@ -16,8 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
     'building-construction': {
       title: 'Building Construction',
       images: [
-        { src: 'https://via.placeholder.com/600x400', alt: 'Construction Documents 1', description: 'Construction Documents 1 - Date: 2023 - Location: Kabul' },
-        { src: 'https://via.placeholder.com/600x400', alt: 'Construction Documents 2', description: 'Construction Documents 2 - Date: 2022 - Location: Stuttgart' },
+        { src: 'Images/IMG_0437.JPG', alt: 'Residential Building 4-storey', description: 'Residential Building - Date: 2016 - Location: Kabul' },
+        { src: 'Images/IMG_0408.JPG', alt: 'Residential Building 4-storey', description: 'Residential Building - Date: 2016 - Location: Kabul' },
+        { src: 'Images/IMG_1836.JPG', alt: 'MORAA Educational Center', description: 'Moraa Reception Building - Date: 2018 - Location: Kabul' },
+        
+       
       ],
     },
     'interior-design': {
