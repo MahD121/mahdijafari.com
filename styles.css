@@ -101,6 +101,7 @@ section h2 {
   position: relative;
   width: calc(25% - 20px);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .project img {
@@ -140,34 +141,76 @@ section h2 {
   margin-top: 10px;
 }
 
-/* Contact Form */
-form {
+/* Gallery */
+.gallery-container {
+  display: none;
+  padding: 20px 0;
+}
+
+.gallery-container.hidden {
+  display: none;
+}
+
+.gallery-container.visible {
+  display: block;
+}
+
+.gallery-container .close-gallery {
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: calc(33% - 20px);
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+/* Contact */
+#contact form {
   display: flex;
   flex-direction: column;
 }
 
-form label {
-  margin: 5px 0;
+#contact label {
+  margin: 10px 0 5px;
 }
 
-form input, form textarea {
+#contact input,
+#contact textarea {
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
-form button {
+#contact button {
   padding: 10px;
   background: #333;
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
 }
 
-form button:hover {
-  background: #77aaff;
+#contact button:hover {
+  background: #555;
 }
 
 /* Footer */
@@ -176,9 +219,5 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
-  margin-top: 20px;
-}
-
-footer p {
-  margin: 0;
+  border-top: #77aaff 3px solid;
 }
