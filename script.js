@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'computational-design': {
       title: 'Computational Design',
       images: [
-        { src: 'https://via.placeholder.com/600x400', alt: 'Build Construction 1', description: 'Build Construction 1 - Date: 2023 - Location: Kabul' },
-        { src: 'https://via.placeholder.com/600x400', alt: 'Build Construction 2', description: 'Build Construction 2 - Date: 2022 - Location: Stuttgart' },
+        { src: 'Images/IMG_0434.JPG', alt: '1st Place winner ', description: 'Hill-side Landscape design of Engineering faculty|Kabul University - Date: 2015 - Location: Kabul' },
+        { src: 'Images/IMG_0433.JPG', alt: 'Mental Health Hospital', description: ' First Parametric design in context of Public facility - Date: 2016 - Location: Kabul' },
       ],
     },
   };
