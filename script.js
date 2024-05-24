@@ -47,6 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
       images: [
         { src: 'Images/IMG_0434.JPG', alt: '1st Place winner ', description: 'Hill-side Landscape design of Engineering faculty|Kabul University - Date: 2015 - Location: Kabul' },
         { src: 'Images/IMG_0433.JPG', alt: 'Mental Health Hospital', description: ' First Parametric design in context of Public facility - Date: 2016 - Location: Kabul' },
+        { src: 'Images/IMG_0448.JPG', alt: 'Mental Health Hospital', description: ' First Parametric design in context of Public facility - Date: 2016 - Location: Kabul' },
+
+        
       ],
     },
   };
